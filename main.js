@@ -149,7 +149,7 @@ let strObj = {
     str: 'Мама мыла раму, рама мыла маму',
     length: 'Мама мыла раму, рама мыла маму'.length
 }
-console.log(strObj);
+console.log(strObj); 
 
 /*
  * #7
@@ -160,7 +160,14 @@ console.log(strObj);
  */
 
 // isRamaPos
+
+let isRamaPos = strObj.str.indexOf('рама');
+console.log(isRamaPos);
+
 // isRama
+
+let isRama = strObj.str.includes('рама');
+console.log(isRama);
 
 /*
  * #8
