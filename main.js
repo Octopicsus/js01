@@ -180,7 +180,7 @@ console.log(isRama);
 
 // strReplace
 
-let strReplace = strObj.str.replace('мыла', 'моет').replace('рама мыла', 'Рама держит'); // нашёл оформление, но неопнятно до конца как работает replace(). Нужна более детальная документация.
+let strReplace = strObj.str.replace('мыла', 'моет').replace('рама мыла', 'Рама держит'); // нашёл оформление, но непонятно до конца как работает replace(). Нужна более детальная документация и примеры.
 console.log(strReplace);
 
 /*
@@ -192,3 +192,11 @@ console.log(strReplace);
 // var someStr = 'some STRING'
 // var upperStr
 // var lowerStr
+
+let someStr = 'some STRING';
+
+someStr = someStr.toLocaleUpperCase();
+console.log(someStr);
+
+someStr = someStr.toLocaleLowerCase();
+console.log(someStr);
