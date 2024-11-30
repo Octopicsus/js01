@@ -114,9 +114,26 @@ console.log(myTest);
  */
 
 // константа Pi → myPi
+
+const Pi = Math.PI;
+let myPi = Pi;
+console.log(myPi);
+
 // округлене значення числа 89.279 → myRound
+
+let myRound = Math.round(89.279)
+console.log(myRound);
+
 // випадкове число між 0..10 → myRandom
+
+let myRandom = Math.random() * 10;
+myRandom = Math.round(myRandom);
+console.log(myRandom);
+
 // 3 у 5 степені → myPow
+
+let myPow = Math.pow(3, 5);
+console.log(myPow);
 
 /*
  * #6
