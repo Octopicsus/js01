@@ -180,6 +180,9 @@ console.log(isRama);
 
 // strReplace
 
+let strReplace = strObj.str.replace('мыла', 'моет').replace('рама мыла', 'Рама держит'); // нашёл оформление, но неопнятно до конца как работает replace(). Нужна более детальная документация.
+console.log(strReplace);
+
 /*
  * #9
  *
