@@ -17,7 +17,7 @@ let myStr = 'JS magic';
 let myBool = true;
 let myArr = [1, 2, 3, 4, 5];
 let myObj = {
-    first: 'Andrii', 
+    first: 'Andrii',
     last: 'Zhyvov'
 };
 console.log(myNum, myStr, myBool, myArr, myObj);
@@ -70,12 +70,42 @@ console.log(i);
 // myTest
 
 let myTest = 20;
-console.log(myTest);
+
 // +=
+
+myTest = myTest + myNum;
+
 // –=
+
+myTest = myNum - myTest;
+myTest = myTest - myTest; // интересное поведение(минус на минус, даёт плюс)
+myTest = myNum - myTest;
+
 // *=
+
+myTest = decimal2 * myTest;
+myTest = myTest * 2;
+myTest = myTest * 1;
+
 // /=
+
+myTest = myTest / myTest;
+myTest = myTest / 0; // <- infinity
+console.log(myTest);
+myTest = myTest / 2;
+
+myTest = parseInt(myTest); // <- NaN
+console.log(myTest);
+myTest = 20;
+
 // %=
+
+myTest = myTest % 2;
+myTest = myTest % 0; // <-NaN
+console.log(myTest);
+myTest = 8;
+
+console.log(myTest);
 
 /*
  * #5
