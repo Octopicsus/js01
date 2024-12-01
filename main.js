@@ -200,3 +200,82 @@ console.log(someStr);
 
 someStr = someStr.toLocaleLowerCase();
 console.log(someStr);
+
+//E X T R A
+let extra = '-------- EXTRA ---------';
+console.log(extra);
+
+console.log(typeof someStr);
+console.log(typeof strObj);
+console.log(typeof myTest);
+console.log(typeof myBool);
+console.log(typeof myArr);
+console.log(typeof nothing);
+
+//----------------------------------
+
+let myInt = 5.2;
+
+myInt = parseFloat(myInt);
+console.log(myInt);
+
+myInt = parseInt(myInt);
+console.log(myInt);
+
+//---------------------------------
+
+let convert = Number(myBool);
+
+convert = convert + myInt;
+console.log(convert);
+
+//---------------------------------
+
+let str;
+
+str = "Hello, world;\nWe are here";
+console.log(str);
+
+str = "Hello, world;\tWe are here";
+console.log(str);
+
+str = "Hello, world;\\We are here";
+console.log(str);
+
+str = "Hello, world;\'We are here";
+console.log(str);
+
+str = "Hello, world;\"We are here";
+console.log(str);
+
+//---------------------------------
+
+console.log(convert < myInt);
+console.log(5 == 5);
+
+let comp;
+let x;
+let y;
+
+x = 5 == 5;
+y = convert < myInt;
+console.log('x', x, 'y', y)
+
+comp = x || y;
+console.log('||' ,comp);
+
+comp = x == y;
+console.log('==' ,comp);
+
+comp = x != y;
+console.log('!=' ,comp);
+
+comp = x && y;
+console.log('&&' ,comp);
+
+console.log('invert >',!comp);
+
+//---------------------------------
+
+console.log('con'+'catination');
+
