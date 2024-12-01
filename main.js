@@ -342,3 +342,13 @@ let defaultDigit = 2;
 // digit = parseInt(digit);
 // alert(typeof digit);
 // alert(defaultDigit + digit);
+
+//---------------------------------
+
+console.log(1 + '1');
+
+console.log(1 - '1');
+
+console.log(1 * '1');
+
+console.log(1 / '2');
