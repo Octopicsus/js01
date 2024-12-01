@@ -332,7 +332,7 @@ let myNumber = 0;
 
 //---------------------------------
 
-let defaultDigit = 02;
+let defaultDigit = 2;
 // let digit = prompt('Enter any digit', defaultDigit);
 
 // alert(digit); 
