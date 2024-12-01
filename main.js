@@ -258,7 +258,7 @@ let y;
 
 x = 5 == 5;
 y = convert < myInt;
-console.log('x', x, 'y', y)
+console.log('x ->', x, 'y ->', y)
 
 comp = x || y;
 console.log('||' ,comp);
@@ -296,3 +296,49 @@ console.log('-1 && 2 && 3 && 10 && 9 ->', -1 && 2 && 3 && 10 && 9);
 
 //---------------------------------
 
+let n = 9;
+
+n += 1;
+n -= 1;
+n *= 2;
+n /= 2;
+
+console.log('n ->', n);
+
+//---------------------------------
+
+let myValue = 99;
+let currency = '€';
+let message = `Only for this month price: ${myValue}${currency}`;
+
+console.log(message);
+
+//---------------------------------
+
+let name = 'Octo';
+// alert('Hello'+' '+name);
+// alert(`Hi ${name.toLocaleLowerCase()}!`);
+
+//---------------------------------
+
+// let isAdmin = confirm('Are you serious?');
+// alert(isAdmin);
+
+//---------------------------------
+
+let myNumber = 0;
+// let yourNumber = prompt('What is your number?', myNumber);
+// alert(yourNumber); 
+
+//---------------------------------
+
+let defaultDigit = 02;
+// let digit = prompt('Enter any digit', defaultDigit);
+
+// alert(digit); 
+// alert(typeof digit); 
+// alert(defaultDigit + digit); 
+
+// digit = parseInt(digit);
+// alert(typeof digit);
+// alert(defaultDigit + digit);
