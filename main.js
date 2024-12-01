@@ -201,9 +201,8 @@ console.log(someStr);
 someStr = someStr.toLocaleLowerCase();
 console.log(someStr);
 
-//E X T R A
-let extra = '-------- EXTRA ---------';
-console.log(extra);
+//----- E X T R A ------------------
+console.log('-----------  EXTRA  ------------');
 
 console.log(typeof someStr);
 console.log(typeof strObj);
@@ -278,4 +277,22 @@ console.log('invert >',!comp);
 //---------------------------------
 
 console.log('con'+'catination');
+
+//---------------------------------
+
+console.log('1 && true ->', 1 && true);
+
+console.log('0 || 5 ->', 0 || 5);
+
+console.log('3 || 5 ->', 3 || 5);
+
+//---------------------------------
+
+console.log('0 || 1 || 2 || 3 - >', 0 || 1 || 2 || 3);
+
+console.log('1 && 3 && -1 && 0 && 7 ->', 1 && 3 && -1 && 0 && 7); 
+
+console.log('-1 && 2 && 3 && 10 && 9 ->', -1 && 2 && 3 && 10 && 9); 
+
+//---------------------------------
 
