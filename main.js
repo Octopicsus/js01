@@ -352,3 +352,32 @@ console.log(1 - '1');
 console.log(1 * '1');
 
 console.log(1 / '2');
+
+//---------------------------------
+
+console.log('--- START ---')
+
+let Value = 123;
+console.log(Value);
+
+let lastValue = Value % 10;
+console.log(lastValue);
+
+Value = Value - lastValue;
+console.log(Value);
+
+Value = Value / 10;
+console.log(Value);
+
+let middleValue = Value % 10;
+console.log(middleValue);
+
+Value = Value - middleValue;
+console.log(Value);
+
+Value = Value / 10;
+console.log(Value);
+
+console.log(Value + ' ' + middleValue + ' ' + lastValue);
+
+console.log('--- END ---')
