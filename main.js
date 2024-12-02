@@ -201,8 +201,17 @@ console.log(someStr);
 someStr = someStr.toLocaleLowerCase();
 console.log(someStr);
 
+
+
+
+
+
+
+
+
 //----- E X T R A ------------------
 console.log('-----------  EXTRA  ------------');
+
 
 console.log(typeof someStr);
 console.log(typeof strObj);
