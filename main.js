@@ -318,7 +318,8 @@ console.log('n ->', n);
 
 let myValue = 99;
 let currency = '€';
-let message = `Only for this month price: ${myValue}${currency}`;
+let MyEvent = '>>> Click <<<'; 
+let message = `Only for this month price: ${myValue + currency} | ${MyEvent}`;
 
 console.log(message);
 
