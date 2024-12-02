@@ -210,7 +210,7 @@ console.log(someStr);
 
 
 //----- E X T R A ------------------
-console.log('-----------  EXTRA  ------------');
+console.log(' \n-----------  EXTRA  ------------\n ');
 
 
 console.log(typeof someStr);
@@ -285,7 +285,7 @@ console.log('invert >',!comp);
 
 //---------------------------------
 
-console.log('con'+'catination');
+console.log('"con'+'catination"');
 
 //---------------------------------
 
